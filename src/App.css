@@ -1,0 +1,127 @@
+.typing-animation {
+  align-items: center;
+  display: flex;
+  height: 17px;
+}
+.typing-animation .dot {
+  animation: mercuryTypingAnimation 1.8s infinite ease-in-out;
+  background-color: #8a8989;
+  border-radius: 50%;
+  height: 7px;
+  margin-right: 4px;
+  vertical-align: middle;
+  width: 7px;
+  display: inline-block;
+}
+.typing-animation .dot:nth-child(1) {
+  animation-delay: 200ms;
+}
+.typing-animation .dot:nth-child(2) {
+  animation-delay: 300ms;
+}
+.typing-animation .dot:nth-child(3) {
+  animation-delay: 400ms;
+}
+.typing-animation .dot:last-child {
+  margin-right: 0;
+}
+
+@keyframes mercuryTypingAnimation {
+  0% {
+    transform: translateY(0px);
+    background-color:#3d3d3d;
+  }
+  28% {
+    transform: translateY(-7px);
+    background-color:#898787;
+  }
+  44% {
+    transform: translateY(0px);
+    background-color: #bbbaba;
+  }
+}
+
+/* body{
+  display: flex;
+  justify-content: center;
+  background: black;
+  margin: 0;padding: 0;
+  align-items: center;
+  height: 100vh;
+} */
+
+.userSpeakingBoxContainer{
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  --boxSize: 8px;
+  --gutter: 4px;
+  /* width: calc((var(--boxSize) + var(--gutter)) * 5); */
+  width: 48px;
+}
+
+.userSpeakingBox{
+  transform: scaleY(0.4);
+  height: 100%;
+  width: var(--boxSize);
+  background: rgba(255, 0, 0, 1);
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  border-radius: 8px;
+}
+
+.userSpeakingBox1{
+  animation-name: quiet;
+}
+
+.userSpeakingBox2{
+  animation-name: normal;
+}
+
+.userSpeakingBox3{
+  animation-name: quiet;
+}
+
+.userSpeakingBox4{
+  animation-name: loud;
+}
+
+.userSpeakingBox5{
+  animation-name: quiet;
+}
+
+@keyframes quiet {
+  25%{
+    transform: scaleY(.5);
+  }
+  50%{
+    transform: scaleY(.3);
+  }
+  75%{
+    transform: scaleY(.4);
+  }
+}
+
+@keyframes normal {
+  25%{
+    transform: scaleY(.7);
+  }
+  50%{
+    transform: scaleY(.3);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}
+@keyframes loud {
+  25%{
+    transform: scaleY(.7);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}

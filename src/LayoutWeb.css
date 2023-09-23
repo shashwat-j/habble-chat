@@ -1,0 +1,51 @@
+.logo{
+    font-family: 'Jua', sans-serif;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    /* font-size: 1rem; */
+}
+.chats{
+    z-index: -1;
+}
+.voices.true{
+    width: 40%;
+}
+.chats.true{
+    width: 60%;
+    height: 100%;
+    z-index: 1;
+}
+.hangup.chats.right-0{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.user{
+    width: 140px;
+}
+.image{
+width: 140px;
+/* height: 844px; */
+/* flex-shrink: 0; */
+}
+.loader {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 10px solid #ffffffd5;
+    border-bottom-color: #DBFF00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

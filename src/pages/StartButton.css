@@ -1,0 +1,137 @@
+.css-button-sharp--blue {
+    width: 130px;
+    height: 40px;
+    color: #000;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Jua", Helvetica;
+    outline: none;
+    border: 2px solid #00E0FF;
+    background: #00E0FF;
+    box-shadow: 2px 2px;
+    border-radius: 7px;
+    letter-spacing: 1.5px;
+  }
+  .css-button-sharp--blue:hover {
+    background: #fff;
+    color: #000;
+  }
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jua", Helvetica;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+    grid-template-areas: "text pic"
+                          ". button";
+    align-items: center;
+    padding-top: 3%;
+  }
+  .button{
+    grid-area: button;
+    justify-self: center;
+    margin-top: 22%;
+    /* align-items: end; */
+  }
+  .wl-text{
+    grid-area: text;
+    
+    font-family: "Jua", Helvetica;
+  }
+  .wl-pic {
+    grid-area: pic;
+    justify-self: center;
+  }
+
+  /* @media only screen and (max-width: 1024px) {
+    .grid-container {
+      display: block;
+      grid-template-columns: none;
+      grid-template-areas: none;
+    }
+    .log{
+      display: flex;
+      justify-content: center;
+    }
+    .main-content {
+      display: block;
+      font-family: "Jua", Helvetica;
+    }
+    .wl-pic {
+      display: none;
+    }
+    .wl-text {
+      position: absolute;
+      bottom: 40%;
+      padding: 0; */
+      /* margin: auto 20px; */
+    /* }
+    .button {
+      position: absolute;
+      bottom: 15%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .css-button-sharp--blue {
+      width: 15rem;
+      height: 45px;
+      padding: 0;
+      font-size: 30px;
+    }
+    .text-3xl{
+      font-size: 36px;
+      margin-bottom: 10px;
+    } 
+    .text-l{
+      font-size: 18px;
+    }
+    .last{
+      margin-top: 5px;
+    }
+  } */
+  
+
+  /* language.js */
+
+h1{
+  font-size: 500;
+  font-family: "Jua", Helvetica;
+  margin: 40px auto;
+}
+h2{
+  font-family: "Jua", Helvetica;
+  font-weight: 300;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+.next{
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+/* @media only screen and (max-width: 1024px){
+  .next{
+    right: 50%;
+    transform: translate(50%);
+    bottom: 15%;
+  }
+  h1.text-3xl{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 10%;
+  }
+  .flag{
+    padding: 10%;
+    margin: 10% 10%;
+  }
+} */

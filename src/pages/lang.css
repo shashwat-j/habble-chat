@@ -1,0 +1,208 @@
+.choose-your-language {
+    position: relative;
+    letter-spacing: 0.07em;
+  }
+  .choose-your-language-wrapper {
+    position: absolute;
+    width: 50.75%;
+    top: calc(50% - 353.5px);
+    right: 24.65%;
+    left: 24.59%;
+    height: 164px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+  }
+  .abble {
+    position: absolute;
+    top: 16.5px;
+    left: 91.5px;
+    letter-spacing: 0.05em;
+  }
+  .union-icon {
+    position: relative;
+    width: 90px;
+    height: 97.5px;
+  }
+  .h,
+  .logo2 {
+    position: absolute;
+  }
+  .h {
+    top: 0;
+    left: 24px;
+    font-size: 75px;
+  }
+  .logo2 {
+    top: 86.5px;
+    left: 120.25px;
+    width: 238.5px;
+    height: 99px;
+    display: none;
+  }
+  .start-button-child,
+  .start-button-item {
+    position: absolute;
+    height: 94.25%;
+    width: 98.79%;
+    top: 5.75%;
+    right: 0;
+    bottom: 0;
+    left: 1.21%;
+    border-radius: 15px;
+    background-color: #000;
+  }
+  .start-button-item {
+    top: 0;
+    right: 1.21%;
+    bottom: 5.75%;
+    left: 0;
+    background-color: #00e0ff;
+  }
+  .button {
+    position: relative;
+    letter-spacing: 0.08em;
+    display: inline-block;
+    width: 155px;
+    flex-shrink: 0;
+  }
+  .button-wrapper {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 86px);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .start-button {
+    position: absolute;
+    top: 897px;
+    left: 1234px;
+    width: 248px;
+    height: 68px;
+    text-align: center;
+    font-size: 38px;
+  }
+  .intersect-icon {
+    position: relative;
+    width: 6.54px;
+    height: 12.61px;
+  }
+  .group-child {
+    top: 23.48px;
+    left: 3.01px;
+    width: 103.9px;
+    height: 76.69px;
+  }
+  .abble1,
+  .group-child,
+  .h1 {
+    position: absolute;
+  }
+  .abble1 {
+    top: 31.58px;
+    left: 88.5px;
+    letter-spacing: 0.05em;
+  }
+  .h1 {
+    top: 22.08px;
+    left: 33px;
+    font-size: 75px;
+  }
+  .intersect-icon1 {
+    position: relative;
+    width: 11.89px;
+    height: 7.54px;
+  }
+  .card-child,
+  .logo5,
+  .vector-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 235.5px;
+    height: 125.48px;
+  }
+  .card-child,
+  .logo5 {
+    top: 46px;
+    left: 64px;
+  }
+  .card-child {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 24px;
+    background-color: #ffebea;
+  }
+  .card {
+    position: absolute;
+    top: 378px;
+    left: 658px;
+    width: 362.4px;
+    height: 362.4px;
+  }
+  .united-states-of-america-us {
+    position: absolute;
+    top: 439px;
+    left: 732px;
+    border-radius: 24px;
+    width: 214.56px;
+    height: 160.62px;
+    overflow: hidden;
+  }
+  .english,
+  .hover {
+    position: absolute;
+  }
+  .english {
+    top: 640.38px;
+    left: 771.56px;
+    font-size: 34px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    font-family: Helvetica;
+    width: 137.85px;
+    height: 38.96px;
+  }
+  .hover {
+    top: 378px;
+    left: 659px;
+    width: 362.4px;
+    height: 362.4px;
+    display: none;
+  }
+  .card-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 24px;
+    background-color: transparent;
+  }
+  .web-choose2 {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #cecece;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1117px;
+    text-align: left;
+    font-size: 60px;
+    color: #000;
+    font-family: Jua;
+  }
+  

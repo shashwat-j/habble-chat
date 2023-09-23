@@ -1,0 +1,21 @@
+.voice{
+    height: 75vh;
+}
+.user-sz{
+    height: 180px;
+    width: 180px;
+}
+.controls{
+    height:25vh;
+}
+.bubble{
+    font-size: 30px;
+    color: #00000080;
+}
+.call{
+    color: #00000080;
+}
+.icon-sz{
+    font-size: 48px;
+    color: #00E0FF;
+}
